@@ -21,8 +21,11 @@ h1 {
 }
 
 p {
-    font-size: 1em; 
+    font-size: 1.2em; 
+	font-family:"Helvetica", Helvetica, Arial, sans-serif;
     line-height: 1.35em;
+	background:nonel
+	text-decoration:none;
 }
 
 /* Responsive Style with Media Queries */
