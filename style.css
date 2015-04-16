@@ -1,9 +1,18 @@
+html {
+	background-color:black;
+}	
+
+body {
+	font-size:100%;
+	color:white;
+	margin: 3em 3em 3em 3em;
+}
+	
 h1 {
 	display:block;
-	min-width:140px;
-	height:50px;
+	min-width:5em;
 	text-align:center;
-	line-height:50px;
+	line-height: 2em;
 	margin-top:1em;
 	font-family:"Helvetica", Helvetica, Arial, sans-serif;
 	color:#2abb9c;
@@ -12,5 +21,14 @@ h1 {
 }
 
 p {
-	
+    font-size: 1em; 
+    line-height: 1.35em;
+}
+
+/* Responsive Style with Media Queries */
+
+@media screen and (max-width:767px) {
+    body {
+        font-size: 80%;
+    }
 }
