@@ -1,0 +1,16 @@
+h1 {
+	display:block;
+	min-width:140px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	margin-top:1em;
+	font-family:"Helvetica", Helvetica, Arial, sans-serif;
+	color:#2abb9c;
+	background:none;
+	text-decoration:none;
+}
+
+p {
+	
+}
